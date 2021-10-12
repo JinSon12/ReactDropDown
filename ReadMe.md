@@ -12,5 +12,5 @@ This project is a react-based app that renders interactive dropdown menu.
 6. Responsivenss
 
 # To run
-
-at `react-dropdown` directory run `yarn start` on terminal.
+first, install the dependencies using `yarn install` in the base directory
+then, run `yarn start` on terminal.
