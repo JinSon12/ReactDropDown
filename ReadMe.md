@@ -1,4 +1,4 @@
-# Jinjoo Son - Take home project
+# Jinjoo Son - Simple React Dropdown
 
 This project is a react-based app that renders interactive dropdown menu.
 
