@@ -1,0 +1,97 @@
+.container {
+  position: relative;
+  width: 500px;
+  color: black;
+}
+
+.dropdown-title-container {
+  position: relative;
+  width: 100%;
+  box-shadow: rgb(71 75 78 / 32%) 0px 8px 24px;
+  border-radius: 0 0 10px 10px;
+}
+
+.dropdown-title-container-open {
+  position: relative;
+  width: 100%;
+  box-shadow: none;
+}
+
+.dropdown-title-arrow {
+  padding-left: 10px;
+}
+
+.dropdown-title-container:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+.dropdown-title {
+  text-align: center;
+  padding: 1rem;
+  color: white;
+  font-weight: 600;
+}
+
+.dropdown-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  transition: ease-in-out 2s;
+  height: 10rem;
+  overflow-y: scroll;
+  border-radius: 0 0 10px 10px;
+  box-shadow: rgba(71, 75, 78, 0.493) 0px 8px 24px;
+}
+
+.dropdon-selection-container {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.dropdown-selection-button {
+  flex: 1 1 auto;
+  border: none;
+  box-shadow: rgba(71, 75, 78, 0.055) 0px 8px 24px;
+}
+
+.dropdown-selection-button:hover {
+  background-color: #fdbb2d;
+}
+
+.container button {
+  background-color: white;
+  border: none;
+  padding: 0.8rem;
+}
+
+.container button:hover {
+  cursor: pointer;
+}
+
+.dropdown-list {
+  transition: 1s ease-in-out;
+  width: 100%;
+}
+
+.dropdown-list button {
+  border: none;
+  padding: 0.8rem;
+}
+
+.dropdown-list button:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+button.dropdown-item-selected {
+  background-color: #fdbb2d;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    position: relative;
+    max-width: 300px;
+    color: black;
+  }
+}
